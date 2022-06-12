@@ -37,6 +37,6 @@ function inputHandler() {
 function submitHandler(event) {
     event.preventDefault();
     form.reset();
-    console.log(localStorage.getItem(KEY));
+    console.log(JSON.parse(localStorage.getItem(KEY)));
     localStorage.removeItem(KEY);
 }
