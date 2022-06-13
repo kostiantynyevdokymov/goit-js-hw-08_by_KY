@@ -29,8 +29,7 @@ function inputHandler() {
         email: emailInput.value,
         message: messageInput.value,
     };
-    //       console.log(`email: ${valueObj.email}`);
-    // console.log(`message: ${valueObj.message}`);
+   
     localStorage.setItem(KEY, JSON.stringify(valueObj));
 }
 
