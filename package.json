@@ -5,7 +5,7 @@
   "homepage": "https://kostiantynyevdokymov.github.io/goit-js-hw-8_by_KY/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url/goit-js-hw-8_by_KY/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-8_by_KY/"
   },
   "repository": {
     "type": "git",
